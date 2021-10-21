@@ -40,7 +40,7 @@ class kalkuliereDurschnittszeit {
 
     @Test
     void kalkuliereDurschnittszeit() {
-        Benutzer b1 = new Benutzer("Tom", "Hart", Arrays.asList(new Basketball(), new Fussball(), new Hochsprung(), new Hindernislauf()));
+        Benutzer b1 = new Benutzer("Andrada", "Lucaciu", Arrays.asList(new Basketball(), new Fussball(), new Hochsprung(), new Hindernislauf()));
         assertEquals(42.5, b1.kalkuliereDurschnittszeit());
     }
 }
